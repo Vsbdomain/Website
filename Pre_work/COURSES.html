@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SLIDE3</title>
+	<link rel="stylesheet" type="text/css" href="COURSES.css">
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+<body>
+	<u class="u"> COURSES </u> 
+	<div class="border">
+    <div class="border1">
+
+    	<div class="row">
+    		<div class="c1">
+
+
+    			<div class="border2">
+
+    				<button class="btn"  onclick="window.location.href='file:///S:/PROJECT/DASHBOARD1.html'"> DASHBOARD </button>
+                    <br>
+    				<button class="btnC"  onclick="window.location.href='file:///S:/PROJECT/COURSES.html'"> COURSES </button>
+                    <br>
+    				<button class="btn" onclick="window.location.href='file:///S:/PROJECT/ACHIEVEMENT.html'"> ACHIEVEMENT </button>
+                    <br>
+    				<button class="btn"onclick="window.location.href='file:///S:/PROJECT/SETTING.html'"> SETTINGS </button>
+                    <br>
+    				<button class="btn" onclick="window.location.href='file:///S:/PROJECT/ABOUT.html'"> ABOUT</button>
+    				<img  class="img1" src="robo.jpg">
+    				<font class="f1"> E-BOOKS</font></div>
+            </div>
+
+
+    	<div class="c2">
+
+    		<canvas id="myChart"  style="width:1000px; height: 800px;"></canvas>
+
+<script class="sc">
+var xValues = ["java", "python", "c", "c++", "javascript","html","css","sql"];
+var yValues = [50,50,50,50,50,50,50,50];
+var barColors = [
+"#800000",
+
+
+"#C82D12",
+"#ED3515",
+  
+  "#FD8C40",
+  "#FBB243",
+  "#FCC91E",
+  "#FCFE41",
+  "#DAF7A6"
+];
+
+new Chart("myChart", {
+  type: "pie",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    title: {
+      display: true,
+      text: "PROGRAMMING LANGUAGES"
+    }
+  }
+});
+
+</script>
+    		
+
+
+    			
+
+
+
+
+
+    		</div>
+    		
+
+
+    	</div>
+    	
+
+
+
+
+
+
+    </div>
+
+		
+	
+
+</body>
+</html>
